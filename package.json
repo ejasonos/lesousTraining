@@ -7,6 +7,10 @@
   "description": "My Industrial training at Lesous Technology Ltd",
   "version": "1.0.0",
   "main": "index.js",
+<<<<<<< HEAD
+=======
+  "devDependencies": {},
+>>>>>>> 55f1e760eefaa084c8fdab74061c2a5db974bd93
   "scripts": {
     "build-css": "npx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --watch"
   },
