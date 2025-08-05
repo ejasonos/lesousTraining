@@ -3,6 +3,9 @@
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 36b9e54 (added files)
   },
   "name": "lesoustraining",
   "description": "My Industrial training at Lesous Technology Ltd",
@@ -15,7 +18,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+<<<<<<< HEAD
 =======
   }
 >>>>>>> 29e1198 (installed tailwindcss)
+=======
+>>>>>>> 36b9e54 (added files)
 }
