@@ -2,6 +2,7 @@
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "tailwindcss": "^4.1.11"
+<<<<<<< HEAD
   },
   "name": "lesoustraining",
   "description": "My Industrial training at Lesous Technology Ltd",
@@ -14,4 +15,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
+=======
+  }
+>>>>>>> 29e1198 (installed tailwindcss)
 }
