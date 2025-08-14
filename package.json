@@ -4,6 +4,7 @@
     "tailwindcss": "^4.1.11"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 36b9e54 (added files)
   },
@@ -24,4 +25,7 @@
 >>>>>>> 29e1198 (installed tailwindcss)
 =======
 >>>>>>> 36b9e54 (added files)
+=======
+  }
+>>>>>>> 29e1198 (installed tailwindcss)
 }
