@@ -222,6 +222,12 @@
   .float-right {
     float: right;
   }
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
+  .m-2\.5 {
+    margin: calc(var(--spacing) * 2.5);
+  }
   .m-3 {
     margin: calc(var(--spacing) * 3);
   }
@@ -324,6 +330,9 @@
   .w-auto {
     width: auto;
   }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
   }
@@ -414,6 +423,9 @@
   }
   .bg-blue-100 {
     background-color: var(--color-blue-100);
+  }
+  .bg-blue-300 {
+    background-color: var(--color-blue-300);
   }
   .bg-blue-500 {
     background-color: var(--color-blue-500);
