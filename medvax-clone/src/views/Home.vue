@@ -1,7 +1,7 @@
 <template>
     <!-- Header Section -->
     <header
-      class="flex justify-center w-full p-4 text-white text-center text-xl bg-green-700"
+      class="flex justify-center w-full p-4 text-white text-center text-xl bg-[green]"
     >
       <img
         alt="hp icon"
@@ -10,7 +10,7 @@
       />
       Join the Movement - Be a Part of the Future of HealthCare
     </header>
-    <nav class="flex w-full 2xl:px-60 py-4 justify-between bg-blue-900">
+    <nav class="flex w-full 2xl:px-60 py-4 justify-between bg-[blue]">
       <div class="flex w-1/2 items-center">
         <img
           alt="Medvax logo"
@@ -21,30 +21,30 @@
       <div class="flex w-1/2 float-right items-center">
         <img alt="Menu" src="#" class="block xl:hidden h-[50px] w-auto" />
         <ul class="hidden xl:flex list-none w-full justify-around">
-          <li><a class="text-green-700 font-bold transform-none">Home</a></li>
+          <li><a class="text-[green] font-bold transform-none">Home</a></li>
           <li>
-            <a class="text-white hover:text-green-700 font-bold transform-none"
+            <a class="text-white hover:text-[green] font-bold transform-none"
               >About</a
             >
           </li>
           <li>
-            <a class="text-white hover:text-green-700 font-bold transform-none"
+            <a class="text-white hover:text-[green] font-bold transform-none"
               >Innovation</a
             >
           </li>
           <li>
-            <a class="text-white hover:text-green-700 font-bold transform-none"
+            <a class="text-white hover:text-[green] font-bold transform-none"
               >E-Pharmacy</a
             >
           </li>
           <li>
-            <a class="text-white hover:text-green-700 font-bold transform-none"
+            <a class="text-white hover:text-[green] font-bold transform-none"
               >Blog</a
             >
           </li>
           <li>
             <a
-              class="rounded font-bold px-4 py-2 text-white bg-green-700 hover:bg-green-500 transform-none"
+              class="rounded font-bold px-4 py-2 text-white bg-[green] hover:bg-[green] transform-none"
               >Contact Us</a
             >
           </li>
@@ -63,7 +63,7 @@
       </div>
       <article class="flex flex-col justify-center gap-5">
         <p
-          class="text-md text-black font-medium underline underline-offset-[7px] decoration-3 decoration-orange-500"
+          class="text-md text-black font-medium underline underline-offset-[7px] decoration-3 decoration-[orange]"
         >
           Operational in Nigeria - Expanding across Africa
         </p>
@@ -80,17 +80,17 @@
         </div>
         <div class="flex gap-5">
           <button
-            class="px-6 py-4 rounded-lg text-md text-white bg-orange-300 hover:bg-orange-400 shadow"
+            class="px-6 py-4 rounded-lg text-md text-white bg-[orange] hover:bg-[orangered] shadow"
           >
             Book a Consultation
           </button>
           <button
-            class="px-6 py-4 rounded-lg text-md text-white bg-orange-300 hover:bg-orange-400 shadow"
+            class="px-6 py-4 rounded-lg text-md text-white bg-[orange] hover:bg-[orange] shadow"
           >
             Download Our App
           </button>
           <button
-            class="px-6 py-4 rounded-lg text-md text-white bg-orange-300 hover:bg-orange-400 shadow"
+            class="px-6 py-4 rounded-lg text-md text-white bg-[orange] hover:bg-[orange] shadow"
           >
             Visit Our E-Pharmacy
           </button>
@@ -114,13 +114,13 @@
       </div>
       <div class="flex w-full justify-center items-center flex-wrap gap-10">
         <div
-          class="p-6 flex flex-col rounded-md bg-blue-100 shadow shadow-blue-300 hover:bg-blue-300"
+          class="p-6 flex flex-col rounded-md bg-[blue] shadow shadow-blue-300 hover:bg-[blue]"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
               src="../public/assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-blue-600 border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded bg-[blue] border object-cover"
             />
             <p class="text-lg text-black font-bold">Technology-Driven</p>
           </div>
@@ -130,13 +130,13 @@
           </p>
         </div>
         <div
-          class="p-6 flex flex-col rounded-md bg-blue-100 shadow shadow-blue-300 hover:bg-blue-300"
+          class="p-6 flex flex-col rounded-md bg-[blue] shadow shadow-[blue] hover:bg-[blue]"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
               src="../public/assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-blue-600 border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded bg-[blue] border object-cover"
             />
             <p class="text-lg text-black font-bold">
               Patient-Centered Approach
@@ -147,13 +147,13 @@
           </p>
         </div>
         <div
-          class="p-6 flex flex-col rounded-md bg-blue-100 shadow shadow-blue-300 hover:bg-blue-300"
+          class="p-6 flex flex-col rounded-md bg-[blue] shadow shadow-[blue] hover:bg-[blue]"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
               src="../public/assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-blue-600 border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded bg-blue border object-cover"
             />
             <p class="text-lg text-black font-bold">Reliable Supply Chain</p>
           </div>
