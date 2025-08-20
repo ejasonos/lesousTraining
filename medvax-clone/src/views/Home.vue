@@ -1,7 +1,7 @@
 <template>
     <!-- Header Section -->
     <header
-      class="flex justify-center w-full p-4 text-white text-center text-xl bg-[bg-blue]"
+      class="flex justify-center w-full p-4 text-white text-center text-xl bg-[#079FCE]"
     >
       <img
         alt="hp icon"
@@ -130,13 +130,13 @@
           </p>
         </div>
         <div
-          class="p-6 flex flex-col rounded-md bg-[blue] shadow shadow-[blue] hover:bg-[blue]"
+          class="p-6 flex flex-col rounded-md bg-blue-400 shadow shadow-[blue] hover:bg-[blue]"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
               src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-[blue] border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded bg-blue-300 border object-cover"
             />
             <p class="text-lg text-black font-bold">
               Patient-Centered Approach
@@ -147,13 +147,13 @@
           </p>
         </div>
         <div
-          class="p-6 flex flex-col rounded-md bg-[blue] shadow shadow-[blue] hover:bg-[blue]"
+          class="p-6 flex flex-col rounded-md shadow shadow-[blue] hover:bg-[blue]"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
               src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-blue border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded pee border object-cover medvax-blue"
             />
             <p class="text-lg text-black font-bold">Reliable Supply Chain</p>
           </div>

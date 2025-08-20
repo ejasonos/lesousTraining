@@ -1,3 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.bg-blue {background-color: #079FCE;}
+
+.medvax-blue {@apply hover:bg-[#079FCE]}
