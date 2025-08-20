@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+/* MONOLITHIC BLUE COLORS */
+.medvax-bg-lightblue {@apply bg-[#CDECF5]}
+.medvax-text-lightblue {@apply text-[#CDECF5]}
 .medvax-bg-blue {@apply bg-[#079FCE]}
 .medvax-text-blue {@apply text-[#079FCE]}
 .medvax-bg-deepblue {@apply bg-[#121F41]}
 .medvax-text-deepblue {@apply text-[#121F41]}
+/* MONOLITHIC RED COLORS */
 .medvax-bg-red {@apply bg-[#E81E74]}
 .medvax-text-red {@apply text-[#E81E74]}
 .medvax-bg-lightred {@apply bg-[#FAD2E3]}
