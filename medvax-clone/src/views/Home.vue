@@ -152,7 +152,7 @@
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               class="h-[70px] w-[70px] p-4 rounded bg-blue border object-cover"
             />
             <p class="text-lg text-black font-bold">Reliable Supply Chain</p>
