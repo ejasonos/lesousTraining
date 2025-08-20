@@ -1,25 +1,25 @@
 <template>
     <!-- Header Section -->
     <header
-      class="flex justify-center w-full p-4 text-white text-center text-xl bg-[green]"
+      class="flex justify-center w-full p-4 text-white text-center text-xl bg-[bg-blue]"
     >
       <img
         alt="hp icon"
-        src="../public/assets/hp.svg"
+        src="../assets/hp.svg"
         class="h=[50px] w-[50px]"
       />
       Join the Movement - Be a Part of the Future of HealthCare
     </header>
-    <nav class="flex w-full 2xl:px-60 py-4 justify-between bg-[blue]">
+    <nav id="topnav" class="flex w-full 2xl:px-60 py-4 justify-between bg-[blue]">
       <div class="flex w-1/2 items-center">
         <img
           alt="Medvax logo"
-          src="../public/assets/logo-nav-B7kw0cn7.svg"
+          src="../assets/logo-nav-B7kw0cn7.svg"
           class="h-[45px] w-auto"
         />
       </div>
       <div class="flex w-1/2 float-right items-center">
-        <img alt="Menu" src="#" class="block xl:hidden h-[50px] w-auto" />
+        <img alt="Menu" src="../assets/unfpa.svg" class="block xl:hidden h-[50px] w-auto" />
         <ul class="hidden xl:flex list-none w-full justify-around">
           <li><a class="text-[green] font-bold transform-none">Home</a></li>
           <li>
@@ -53,11 +53,11 @@
     </nav>
 
     <!-- Hero page Sections-->
-    <section class="grid xl:grid-cols-2 bg-white 2xl:px-60">
+    <section class="grid lg:grid-cols-2 bg-white 2xl:px-60">
       <div class="h-[500px] w-full rounded p-4">
         <img
           alt="Doctors"
-          src="../public/assets/onboarding-dual-Dl6c82fL.svg"
+          src="../assets/onboarding-dual-Dl6c82fL.svg"
           class="h-full w-full overflow-hidden object-cover"
         />
       </div>
@@ -119,7 +119,7 @@
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               class="h-[70px] w-[70px] p-4 rounded bg-[blue] border object-cover"
             />
             <p class="text-lg text-black font-bold">Technology-Driven</p>
@@ -135,7 +135,7 @@
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               class="h-[70px] w-[70px] p-4 rounded bg-[blue] border object-cover"
             />
             <p class="text-lg text-black font-bold">
@@ -168,7 +168,7 @@
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               class="h-[70px] w-[70px] p-4 rounded bg-blue-600 border object-cover"
             />
             <p class="text-lg text-black font-bold">Impact Focused</p>
@@ -190,7 +190,7 @@
       <div class="flex flex-col p-2 rounded bg-green-100 w-1/3">
         <img
           alt="services"
-          src="../public/assets/medtracka-4-her-Df4Sxils.svg"
+          src="../assets/medtracka-4-her-Df4Sxils.svg"
           class="h=[250px] overflow-hidden"
         />
         <div class="flex flex-col gap-5 w-full">
@@ -206,7 +206,7 @@
       <div class="flex flex-col p-2 rounded bg-green-100 w-1/3">
         <img
           alt="services"
-          src="../public/assets/medtracka-CyWCPOXU.svg"
+          src="../assets/medtracka-CyWCPOXU.svg"
           class="h=[250px] overflow-hidden"
         />
         <div class="flex flex-col gap-5 w-full">
@@ -221,7 +221,7 @@
       <div class="flex flex-col p-2 rounded bg-green-100 w-1/3">
         <img
           alt="services"
-          src="../public/assets/medvax-pharmacy-C8rc04dD.svg"
+          src="../assets/medvax-pharmacy-C8rc04dD.svg"
           class="h=[250px] overflow-hidden"
         />
         <div class="flex flex-col gap-5 w-full">
@@ -235,7 +235,7 @@
       <div class="flex flex-col p-2 rounded bg-green-100 w-1/3">
         <img
           alt="services"
-          src="../public/assets/medvax-lab-hGB-yGDV.svg"
+          src="../assets/medvax-lab-hGB-yGDV.svg"
           class="h=[250px] overflow-hidden"
         />
         <div class="flex flex-col gap-5 w-full">
@@ -297,7 +297,7 @@
         <div class="flex flex-col w-1/3 bg-green-50 pt-2.5 shadow-lg rounded">
           <img
             alt="quote"
-            src="../public/assets/hp.svg"
+            src="../assets/hp.svg"
             class="object-cover h-[60px] w-[60px] pl-2.5"
           />
           <p class="p-4 text-lg font-normal w-full">
@@ -308,15 +308,15 @@
             class="flex items-center gap-3 p-3 bg-pink-300 overflow-hidden w-full"
           >
             <!-- Circular Image -->
-            <div class="w-10 h-10 rounded-full overflow-hidden bg-amber-50">
+            <div class="w-10 h-10 rounded-full overflow-hidden bg-[orange]">
               <img
-                src="../public/assets/be_change_maker.svg"
+                src="../assets/be_change_maker.svg"
                 alt="Aisha from Nigeria"
                 class="w-full h-full object-cover"
               />
             </div>
             <!-- Text -->
-            <p class="text-base font-light text-gray-800">Aisha, Nigeria</p>
+            <p class="text-base font-light text-[gray]">Aisha, Nigeria</p>
           </div>
         </div>
       </div>
@@ -344,77 +344,77 @@
       </div>
       <div class="w-full flex overflow-scroll py-6">
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
         <img
-          src="../public/assets/hp.svg"
+          src="../assets/hp.svg"
           alt="partners logo"
           class="h-20 w-auto mx-4"
         />
@@ -424,7 +424,7 @@
 
     <!-- Get a consultant Section -->
     <div
-      class="flex w-full justify-between items-center p-6 rounded-sm m-2.5 relative bg-blue-300"
+      class="flex w-full justify-between items-center p-6 rounded-sm m-2.5 relative bg-[blue]"
     >
       <div class="w-10 h-10 border absolute left-0 top-0"></div>
       <div class="flex flex-col w-2/3">
@@ -438,79 +438,79 @@
           health and well-being.
         </p>
       </div>
-      <button class="rounded-md h-fit w-fit px-4 py-3 bg-blue-700 text-black">
+      <button class="rounded-md h-fit w-fit px-4 py-3 bg-[blue] text-black">
         Book Consultant
       </button>
     </div>
 
     <!-- Footer Section -->
-    <footer class="w-full flex flex-col bg-blue-800 p-2 gap-y-2">
+    <footer class="w-full flex flex-col bg-[blue] p-2 gap-y-2">
       <section class="flex w-full justify-between items-center p-2">
         <img
-          src="../public/assets/logo-Footer.svg"
+          src="../assets/logo-Footer.svg"
           alt="MedVax logo"
           class="h-14 w-auto mr-6"
         />
         <ul
           class="list-none flex flex-wrap justify-between items-center w-full"
         >
-          <li class="text-purple-800 m-3 text-sm">Home</li>
+          <li class="text-[purple] m-3 text-sm">Home</li>
           <li class="text-white m-3 text-sm">About</li>
           <li class="text-white m-3 text-sm">Innovation</li>
           <li class="text-white m-3 text-sm">E-Pharmacy</li>
           <li class="text-white m-3 text-sm">Blog</li>
           <li class="text-white m-3 text-sm">Contact</li>
           <li class="text-white m-3 text-sm">Privacy</li>
-          <li class="text-white m-3 text-sm">
+          <a href="#topnav" class="decoration-none text-white m-3 text-sm">
             Go to top
             <span
               class="h-10 w-10 rounded-full border flex justify-center items-center"
               ><img
-                src="../public/assets/hp.svg"
+                src="../assets/hp.svg"
                 alt="Top"
                 class="h-full w-full object-cover text-white"
             /></span>
-          </li>
+          </a>
         </ul>
       </section>
-      <section class="rounded p-2 border-purple-700 w-full flex items-center">
+      <section class="rounded p-2 border-[purple] border-2 w-full flex items-center">
         <div class="w-2/3 flex flex-wrap">
           <button
-            class="p-2 rounded border-purple-700 text-md text-pink-600 flex items-center"
+            class="p-2 rounded border-[purple] border-2 text-md text-pink-600 flex items-center"
           >
             <img
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               alt="icon"
               class="h-10 w-10 mx-1"
             />info@medvaxhealth.com
           </button>
           <button
-            class="p-2 rounded border-purple-700 text-md text-pink-600 flex items-center"
+            class="p-2 rounded border-[purple] border-2 text-md text-pink-600 flex items-center"
           >
             <img
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               alt="icon"
               class="h-10 w-10 mx-1"
             />+234 912 973 8935
           </button>
           <button
-            class="p-2 rounded border-purple-700 text-md text-pink-600 flex items-center"
+            class="p-2 rounded border-[purple] border-2 text-md text-pink-600 flex items-center"
           >
             <img
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               alt="icon"
               class="h-10 w-10 mx-1"
             />FCT, Abuja, Nigeria
           </button>
           <button
-            class="p-2 rounded border-purple text-md text-pink-600 flex items-center"
+            class="p-2 rounded border-[purple] border-2 text-md text-pink-600 flex items-center"
           >
             <img
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               alt="icon"
               class="h-10 w-10 mx-1"
             /><img
-              src="../public/assets/hp.svg"
+              src="../assets/hp.svg"
               alt="partners logo"
               class="h-10 w-10 mx-1"
             />
