@@ -4,3 +4,7 @@
 .medvax-text-blue {@apply text-[#079FCE]}
 .medvax-bg-deepblue {@apply bg-[#121F41]}
 .medvax-text-deepblue {@apply text-[#121F41]}
+.medvax-bg-red {@apply bg-[#E81E74]}
+.medvax-text-red {@apply text-[#E81E74]}
+.medvax-bg-lightred {@apply bg-[#FAD2E3]}
+.medvax-text-lightred {@apply text-[#FAD2E3]}
