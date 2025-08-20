@@ -169,7 +169,7 @@
             <img
               alt="icon"
               src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded bg-blue-600 border object-cover"
+              class="h-[70px] w-[70px] p-4 rounded med border object-cover"
             />
             <p class="text-lg text-black font-bold">Impact Focused</p>
           </div>
