@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <nav>
+  <nav class="flex justify-center m-4 gap-x-1">
     <router-link to="/" class="px-3 py-2 rounded-md">Home</router-link>
     <router-link to="/about" class="px-3 py-2 rounded-md">About</router-link>
   </nav>

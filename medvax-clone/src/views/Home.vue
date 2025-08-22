@@ -1,3 +1,6 @@
+<script setup>
+import Footer from '../components/Footer.vue'
+</script>
 <template>
     <!-- Header Section -->
     <header
@@ -442,5 +445,5 @@
         Book Consultant
       </button>
     </div>
-
+<Footer />
 </template>
