@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import TopnavSection from '../components/TopnavSection.vue';
 </script>
 

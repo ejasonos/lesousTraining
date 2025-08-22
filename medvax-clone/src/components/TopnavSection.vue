@@ -9,7 +9,7 @@
       />
       Join the Movement - Be a Part of the Future of HealthCare
     </header>
-    <nav id="topnav" class="flex w-full py-4 justify-between medvax-bg-deepblue">
+    <nav id="topnav" class="flex w-full  p-3 justify-between medvax-bg-deepblue">
       <div class="flex w-1/2 items-center">
         <img
           alt="Medvax logo"
@@ -19,13 +19,15 @@
       <div class="flex w-1/2 float-right items-center">
         <img alt="Menu" src="../assets/unfpa.svg" class="hidden h-[50px] w-auto" />
         <ul class="flex list-none w-full justify-around hover:cursor-default">
-          <li><router-link to="/home" class="medvax-text-blue font-bold transform-none">Home</router-link></li>
           <li>
-            <router-link to="/about" class="text-white hover:text-[green] font-bold transform-none"
+            <router-link v-bind:to="{name: 'Home'}" class="text-white hover:medvax-text-blue transform-none">Home</router-link>
+          </li>
+          <li>
+            <router-link to="/about" class="text-white hover:medvax-text-blue transform-none"
               >About</router-link>
           </li>
           <li>
-            <router-link to="/innovation" class="text-white hover:text-[green] font-bold transform-none"
+            <router-link to="/innovation" class="text-white hover:medvax-text-blue transform-none"
               >Innovation</router-link>
           </li>
           <li>
