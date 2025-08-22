@@ -9,7 +9,7 @@
       />
       Join the Movement - Be a Part of the Future of HealthCare
     </header>
-    <nav id="topnav" class="flex w-full  p-3 justify-between medvax-bg-deepblue">
+    <nav id="topnav" class="flex w-full  p-4 justify-between medvax-bg-deepblue">
       <div class="flex w-1/2 items-center">
         <img
           alt="Medvax logo"
