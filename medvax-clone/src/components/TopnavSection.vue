@@ -19,32 +19,27 @@
       <div class="flex w-1/2 float-right items-center">
         <img alt="Menu" src="../assets/unfpa.svg" class="hidden h-[50px] w-auto" />
         <ul class="flex list-none w-full justify-around hover:cursor-default">
-          <li><a class="medvax-text-blue font-bold transform-none">Home</a></li>
+          <li><router-link to="/home" class="medvax-text-blue font-bold transform-none">Home</router-link></li>
           <li>
-            <a class="text-white hover:text-[green] font-bold transform-none"
-              >About</a
-            >
+            <router-link to="/about" class="text-white hover:text-[green] font-bold transform-none"
+              >About</router-link>
           </li>
           <li>
-            <a class="text-white hover:text-[green] font-bold transform-none"
-              >Innovation</a
-            >
+            <router-link to="/innovation" class="text-white hover:text-[green] font-bold transform-none"
+              >Innovation</router-link>
           </li>
           <li>
-            <a class="text-white hover:medvax-text-blue transform-none"
-              >E-Pharmacy</a
-            >
+            <router-link to="/epharmacy" class="text-white hover:medvax-text-blue transform-none"
+              >E-Pharmacy</router-link>
           </li>
           <li>
-            <a class="text-white hover:medvax-text-blue transform-none"
-              >Blog</a
-            >
+            <router-link to="/blog" class="text-white hover:medvax-text-blue transform-none"
+              >Blog</router-link>
           </li>
           <li>
-            <a
+            <router-link to="/contactus"
               class="rounded px-4 py-2 text-white medvax-bg-blue hover:medvax-bg-blue transform-none"
-              >Contact Us</a
-            >
+              >Contact Us</router-link>
           </li>
         </ul>
       </div>

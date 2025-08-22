@@ -1,10 +1,11 @@
 <script setup>
-import FooterSection from '../components/FooterSection.vue'
-import TopnavSection from '../components/TopnavSection.vue'
-import ImpactSection from '../components/ImpactSection.vue'
-import PartnersSection from '../components/PartnersSection.vue'
 import ConsultantSection from '../components/ConsultantSection.vue'
+import FooterSection from '../components/FooterSection.vue'
+import ImpactSection from '../components/ImpactSection.vue'
 import OverviewSection from '../components/OverviewSection.vue'
+import PartnersSection from '../components/PartnersSection.vue'
+import ServicesSection from '../components/ServicesSection.vue'
+import TopnavSection from '../components/TopnavSection.vue'
 </script>
 <template>
     <!-- Header and Navigation Section -->
@@ -56,6 +57,9 @@ import OverviewSection from '../components/OverviewSection.vue'
     </section>
     <!-- Overview Section -->
      <OverviewSection />
+    
+    <!-- Services Section -->
+     <ServicesSection />
   
     <!-- Impact Section -->
     <ImpactSection />

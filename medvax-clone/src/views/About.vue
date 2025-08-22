@@ -1,3 +1,8 @@
+<script>
+import TopnavSection from '../components/TopnavSection.vue';
+</script>
+
 <template>
-<h1 class="flex justify-center items-center h-screen text-9xl medvax-text-blue">About page</h1>
+    <!-- Header and Navigation Section -->
+    <TopnavSection />
 </template>
