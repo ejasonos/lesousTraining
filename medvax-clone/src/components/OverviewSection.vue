@@ -1,7 +1,7 @@
 <template>
       <!-- Overview Section -->
     <section
-      class="flex flex-col justify-center bg-white gap-5 w-full mt-10"
+      class="flex flex-col justify-center items-center bg-white gap-5 m-10"
     >
       <div class="flex flex-col gap-5 w-full justify-center items-center">
         <h1 class="text-5xl font-bold medvax-text-deepblue text-black m-6">Overview</h1>
@@ -13,7 +13,7 @@
           under-served communities.
         </p>
       </div>
-      <div class="flex w-full justify-center items-center flex-wrap gap-10">
+      <div class="grid grid-cols-2 justify-center items-center gap-10">
         <div
           class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
         >

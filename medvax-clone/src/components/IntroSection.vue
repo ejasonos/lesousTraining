@@ -2,7 +2,7 @@
     
     <!-- Hero page Sections-->
     <section class="grid grid-cols-2 bg-white">
-      <div class="h-[70vh] w-full rounded p-4">
+      <div class="h-[500px] w-full rounded p-4">
         <img
           alt="Doctors"
           src="../assets/onboarding-dual-Dl6c82fL.svg"
@@ -16,7 +16,7 @@
           Operational in Nigeria - Expanding across Africa
         </p>
         <div class="flex flex-col gap-y-2">
-          <h1 class="text-7xl medvax-text-deepblue font-bold">
+          <h1 class="text-6xl medvax-text-deepblue font-bold">
             Transforming Medication Access Through Innovation
           </h1>
           <p class="text-md text-black font-medium">
@@ -26,7 +26,7 @@
             reach those who need them the most.
           </p>
         </div>
-        <div class="flex gap-3">
+        <div class="flex flex-wrap gap-3">
           <button
             class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] hover:bg-[orange] shadow"
           >
