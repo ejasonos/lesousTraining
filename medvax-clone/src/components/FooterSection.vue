@@ -1,23 +1,23 @@
 <template>
     <!-- Footer Section -->
-    <footer class="w-full flex flex-col medvax-bg-blue py-6 px-14 gap-y-2">
-      <section class="flex w-full justify-between items-center p-2">
+    <footer class="w-full flex flex-col medvax-bg-blue py-6 px-14">
+      <section class="flex w-full justify-between items-center">
         <img
-          src="../assets/logo-Footer.svg"
+          src="../assets/logo-footer-BYjAwJzc.svg"
           alt="MedVax logo"
-          class="h-14 w-auto mr-6"
+          class="h-12 w-auto border"
         />
         <ul
-          class="list-none flex flex-wrap justify-between items-center w-full"
+          class="list-none flex flex-wrap border justify-between items-center w-full"
         >
-          <li class="text-[purple] m-3 text-sm">Home</li>
+          <li class="text-white m-3 text-sm">Home</li>
           <li class="text-white m-3 text-sm">About</li>
           <li class="text-white m-3 text-sm">Innovation</li>
           <li class="text-white m-3 text-sm">E-Pharmacy</li>
           <li class="text-white m-3 text-sm">Blog</li>
           <li class="text-white m-3 text-sm">Contact</li>
           <li class="text-white m-3 text-sm">Privacy</li>
-          <a href="#topnav" class="decoration-none text-white m-3 text-sm">
+          <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
             Go to top
             <span
               class="h-10 w-10 rounded-full border flex justify-center items-center"
@@ -26,7 +26,7 @@
                 alt="Top"
                 class="h-full w-full object-cover text-white"
             /></span>
-          </a>
+          </router-link>
         </ul>
       </section>
       <section class="rounded p-4  medvax-bg-deepblue flex justify-between items-center">
