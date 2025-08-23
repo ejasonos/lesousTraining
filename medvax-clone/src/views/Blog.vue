@@ -18,7 +18,7 @@ import TopnavSection from '../components/TopnavSection.vue';
     </section>
 
      <!-- Our Blog Section -->
-    <section class="w-full flex flex-col pt-24 p-14 medvax-text-deepblue gap-y-10">
+    <section class="w-full flex flex-col m-8 medvax-text-deepblue gap-y-10">
       <!-- List of card items -->
       <div class="flex w-full">
         <div class="flex flex-col w-[400px] border-[skyblue] border-2 px-3 py-6 gap-y-2 rounded-sm medvax-bg-lightblue">

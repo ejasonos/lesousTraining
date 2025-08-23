@@ -50,6 +50,6 @@
 
 <style>
 .router-link-active {
-  color: #abc;
+  color: #b79Fe6;
 }
 </style>

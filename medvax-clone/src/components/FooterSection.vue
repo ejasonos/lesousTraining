@@ -7,16 +7,31 @@
           alt="MedVax logo"
           class="h-12 w-auto"
         />
-        <ul
-          class="list-none flex flex-wrap justify-between items-center w-1/2"
-        >
-          <li class="text-white m-3 text-sm">Home</li>
-          <li class="text-white m-3 text-sm">About</li>
-          <li class="text-white m-3 text-sm">Innovation</li>
-          <li class="text-white m-3 text-sm">E-Pharmacy</li>
-          <li class="text-white m-3 text-sm">Blog</li>
-          <li class="text-white m-3 text-sm">Contact</li>
-          <li class="text-white m-3 text-sm">Privacy</li>
+        <ul class="flex list-none w-fit gap-x-10 justify-around hover:cursor-default">
+          <li>
+            <router-link v-bind:to="{name: 'Home'}" class="text-white font-medium hover:medvax-text-blue transform-none">Home</router-link>
+          </li>
+          <li>
+            <router-link to="/about" class="text-white font-medium hover:medvax-text-blue transform-none"
+              >About</router-link>
+          </li>
+          <li>
+            <router-link to="/innovation" class="text-white font-medium hover:medvax-text-blue transform-none"
+              >Innovation</router-link>
+          </li>
+          <li>
+            <router-link to="/epharmacy" class="text-white font-medium hover:medvax-text-blue transform-none"
+              >E-Pharmacy</router-link>
+          </li>
+          <li>
+            <router-link to="/blog" class="text-white font-medium hover:medvax-text-blue transform-none"
+              >Blog</router-link>
+          </li>
+          <li>
+            <router-link to="/contactus"
+              class="rounded px-4 py-2 text-white font-medium medvax-bg-blue hover:medvax-bg-blue transform-none"
+              >Contact Us</router-link>
+          </li>
         </ul>
         <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
             Go to top
@@ -77,4 +92,7 @@
         </div>
       </section>
     </footer>
-    </template>
+</template>
+
+<style>
+</style>
