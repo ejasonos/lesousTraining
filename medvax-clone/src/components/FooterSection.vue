@@ -7,7 +7,7 @@
           alt="MedVax logo"
           class="h-12 w-auto"
         />
-        <ul class="flex list-none w-fit gap-x-10 justify-around hover:cursor-default">
+        <ul class="flex list-none w-fit gap-x-6 justify-around hover:cursor-default">
           <li>
             <router-link v-bind:to="{name: 'Home'}" class="text-white font-medium hover:medvax-text-blue transform-none">Home</router-link>
           </li>
