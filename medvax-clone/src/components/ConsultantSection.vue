@@ -3,7 +3,6 @@
     <div
       class="flex justify-between items-center p-12 rounded-sm mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
     >
-      <div class="w-10 h-10 border absolute left-0 top-0"></div>
       <div class="flex flex-col w-2/3">
         <h1 class="text-lg font-bold">
           Need to speak to a consultant?
