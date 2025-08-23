@@ -35,6 +35,6 @@ let items = 0
     </div>
 
     <!-- Footer Section -->
-     <FooterSection />
+     <FooterSection placed="absolute bottom-0" />
 
 </template>

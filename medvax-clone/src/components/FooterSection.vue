@@ -1,10 +1,16 @@
-<script>
-// pass a prop for background color
+<script setup>
+// pass a prop for placing footer for each page
+defineProps ({
+  placed: {
+    type: String,
+    default: 'static bottom-0'
+  }
+})
 </script>
 
 <template>
     <!-- Footer Section -->
-    <footer class="static bottom-0 w-full flex flex-col medvax-bg-blue py-6 px-14 gap-y-5">
+    <footer v-bind:class="[placed, 'flex flex-col medvax-bg-blue py-6 px-14 gap-y-5']">
       <section class="flex justify-between items-center">
         <img
           src="../assets/logo-footer-BYjAwJzc.svg"

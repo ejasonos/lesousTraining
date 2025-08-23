@@ -145,6 +145,6 @@ import TopnavSection from '../components/TopnavSection.vue';
     </div>
 
     <!-- Footer Section -->
-     <FooterSection />
+     <FooterSection/>
 
 </template>

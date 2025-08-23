@@ -19,5 +19,5 @@ import TopnavSection from '../components/TopnavSection.vue';
      <ServicesSection bgColor="medvax-bg-lightblue" />
 
     <!-- Footer Section -->
-     <FooterSection />
+     <FooterSection placed="absolute bottom-0" />
 </template>

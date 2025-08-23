@@ -41,5 +41,5 @@ import TopnavSection from '../components/TopnavSection.vue';
     </section>
 
     <!-- Footer Section -->
-     <FooterSection />
+     <FooterSection placed="absolute bottom-0" />
 </template>
