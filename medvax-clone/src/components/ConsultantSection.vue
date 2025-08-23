@@ -1,7 +1,7 @@
 <template>
       <!-- Get a consultant Section -->
     <div
-      class="flex justify-between items-center p-12 rounded-sm mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
+      class="flex justify-between items-center p-12 rounded-md mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
     >
       <div class="flex flex-col w-2/3">
         <h1 class="text-lg font-bold">

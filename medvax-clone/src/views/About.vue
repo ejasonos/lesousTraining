@@ -1,4 +1,5 @@
 <script setup>
+import FooterSection from '../components/FooterSection.vue'
 import ImpactSection from '../components/ImpactSection.vue'
 import TopnavSection from '../components/TopnavSection.vue';
 </script>
@@ -111,10 +112,40 @@ import TopnavSection from '../components/TopnavSection.vue';
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">Our Team of Experts</h1>
         <p class="px-32">Our team combines a decade of experience in Healthcare (Pharmaceutical care), Technology, and Logistics to drive growth in emerging markets. "At MedVax Health, we are committed to leveraging technology in bridging health equity gaps in Africa."
-- Chioma Uzoma</p>
+        <span class="block">- Chioma Uzoma</span></p>
         <div class="flex justify-center items-center p-5 medvax-bg-deepblue gap-x-6 w-full rounded-bl-md rounded-br-md">
           <button class="px-2 py-3 rounded-md border-1 border-white text-white">Social Media</button>
           <button class="px-2 py-3 rounded-md border-1 border-white text-white">Mangament</button>
         </div>
     </section>
+    <!-- Personnel (CEO) -->
+    <div class="flex flex-col w-fit my-18 mx-8 rounded-lg relative">
+      <img alt="personnel" src="../assets/hp.svg" class="h-90 w-75 border rounded-xl" />
+      <div class="flex flex-col rounded-tr-lg medvax-bg-lightred w-fit py-6 px-3 absolute bottom-[-30px] left-0">
+        <p class="block font-medium text-xl">Chioma Favour Uzoma</p>
+        <p class="block font-medium">Chief Executive Officer</p>
+      </div>
+    </div>
+
+    <!-- Join us in Revolutionizing HealthCare -->
+      <!-- Get a consultant Section -->
+    <div
+      class="flex justify-between items-center p-12 rounded-md mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
+    >
+      <div class="flex flex-col w-2/3">
+        <h1 class="text-lg font-bold">
+          Join Us in Revolutionizing Healthcare
+        </h1>
+        <p class="text-md font-medium">
+          Through innovation, strategic partnerships, and community-driven solutions, we are building the future of accessible, affordable, and equitable healthcare in Africa. At MedVax Health, we believe that healthcare is a fundamental right, not a privilege.
+        </p>
+      </div>
+      <button class="rounded-md h-fit w-fit px-4 py-3 medvax-bg-blue medvax-text-deepblue font-medium">
+        Join Us
+      </button>
+    </div>
+
+    <!-- Footer Section -->
+     <FooterSection />
+
 </template>
