@@ -1,6 +1,6 @@
 <template>
     <!-- Footer Section -->
-    <footer class="w-full flex flex-col medvax-bg-blue py-6 px-14">
+    <footer class="w-full flex flex-col medvax-bg-blue py-6 px-14 gap-y-5">
       <section class="flex w-full justify-between items-center">
         <img
           src="../assets/logo-footer-BYjAwJzc.svg"
@@ -20,9 +20,9 @@
           <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
             Go to top
             <span
-              class="h-10 w-10 rounded-full border flex justify-center items-center"
+              class="h-5 w-5 medvax-bg-deepblue rounded-full flex justify-center items-center"
               ><img
-                src="../assets/hp.svg"
+                src="../assets/arrow-up.svg"
                 alt="Top"
                 class="h-full w-full object-cover text-white"
             /></span>
