@@ -1,4 +1,6 @@
 <script setup>
+import FooterSection from '../components/FooterSection.vue';
+import ServicesSection from '../components/ServicesSection.vue'
 import TopnavSection from '../components/TopnavSection.vue';
 </script>
 
@@ -12,4 +14,10 @@ import TopnavSection from '../components/TopnavSection.vue';
         <h1 class="text-4xl font-normal">Our Innovation</h1>
         <p>Explore a suite of MedVax Health products tailored to provide cutting edge healthcare services, even in remote and underserved communities.</p>
     </section>
+
+    <!-- Innovations -->
+     <ServicesSection />
+
+    <!-- Footer Section -->
+     <FooterSection />
 </template>

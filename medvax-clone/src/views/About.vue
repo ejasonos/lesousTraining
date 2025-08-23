@@ -107,7 +107,6 @@ import TopnavSection from '../components/TopnavSection.vue';
      <ImpactSection />
 
      <!-- Team of experts -->
-     <!-- Hero page -->
     <section class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 pt-20 gap-y-10 text-center">
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">Our Team of Experts</h1>
@@ -118,6 +117,7 @@ import TopnavSection from '../components/TopnavSection.vue';
           <button class="px-2 py-3 rounded-md border-1 border-white text-white">Mangament</button>
         </div>
     </section>
+
     <!-- Personnel (CEO) -->
     <div class="flex flex-col w-fit my-18 mx-8 rounded-lg relative">
       <img alt="personnel" src="../assets/hp.svg" class="h-90 w-75 border rounded-xl" />

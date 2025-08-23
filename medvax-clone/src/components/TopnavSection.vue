@@ -47,3 +47,9 @@
       </div>
    </nav>
 </template>
+
+<style>
+.router-link-active {
+  color: #abc;
+}
+</style>

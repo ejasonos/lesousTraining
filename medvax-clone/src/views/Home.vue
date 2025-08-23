@@ -12,28 +12,20 @@ import TopnavSection from '../components/TopnavSection.vue'
 <template>
     <!-- Header and Navigation Section -->
      <TopnavSection />
-
     <!-- Introductory Section -->
      <IntroSection />
-
     <!-- Overview Section -->
      <OverviewSection />
-    
     <!-- Services Section -->
      <ServicesSection />
-  
     <!-- Impact Section -->
     <ImpactSection />
-
     <!-- Blog Section -->
      <BlogSection />
-
     <!-- Partners section -->
      <PartnersSection />
-
     <!-- Get a consultant -->
      <ConsultantSection />
-
     <!-- Footer Section -->
      <FooterSection />
 </template>
