@@ -1,7 +1,7 @@
 <template>
     
     <!-- Hero page Sections-->
-    <section class="grid grid-cols-2 bg-white">
+    <section id="topOfPage" class="grid grid-cols-2 bg-white">
       <div class="h-[500px] w-full rounded p-4">
         <img
           alt="Doctors"

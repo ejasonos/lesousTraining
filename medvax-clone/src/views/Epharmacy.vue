@@ -10,7 +10,7 @@ let items = 0
     <TopnavSection />
 
          <!-- Hero page -->
-    <section class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 px-32 py-14 text-center">
+    <section id="topOfPage" class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 px-32 py-14 text-center">
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">MedVax Health E-Pharmacy</h1>
         <p>Place orders, pick up your orders or have them delivered to you.</p>
@@ -18,7 +18,6 @@ let items = 0
 
 
      <!-- Checkout section -->
-      <!-- Ready to checkout Section -->
     <div
       class="flex justify-between items-center p-12 rounded-md mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
     >

@@ -9,7 +9,7 @@ import TopnavSection from '../components/TopnavSection.vue';
     <TopnavSection />
 
     <!-- Hero page -->
-    <section class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 px-32 py-14 text-center">
+    <section id="topOfPage" class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 px-32 py-14 text-center">
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">Who we are</h1>
         <p>MedVax Health is a health technology company on a mission to bridge healthcare gaps through low-cost technology, resilient anti-counterfeit supply chains, and last-mile delivery solutions. We ensure that regardless of geographical barriers, climate disruptions and fragmented healthcare supply chains, life-saving medications, vaccines, and reproductive health products reach the most vulnerable communities, and those who need them most, with a special commitment to bridging the health equity gap for women and girls. We are currently operational in Nigeria, with a vision to expand across Africa.</p>
@@ -26,7 +26,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"> <!-- Card 1 -->
             <p class="text-8xl font-bold medvax-text-deepblue">01</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-20">
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18">
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -45,7 +45,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 2 -->
             <p class="text-8xl font-bold medvax-text-deepblue">02</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-20">
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18">
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -65,9 +65,9 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 3 -->
             <p class="text-8xl font-bold medvax-text-deepblue">03</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-20"
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18"
         >
-          <div class="flex w-full items-center gap-x-1">
+          <div class="flex items-center gap-x-1">
             <img
               alt="icon"
               src="../assets/reliable-supply.svg"
@@ -85,7 +85,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 4 -->
             <p class="text-8xl font-bold medvax-text-deepblue">04</p>
             <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-20 "
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
@@ -128,7 +128,6 @@ import TopnavSection from '../components/TopnavSection.vue';
     </div>
 
     <!-- Join us in Revolutionizing HealthCare -->
-      <!-- Get a consultant Section -->
     <div
       class="flex justify-between items-center p-12 rounded-md mx-10 my-14 relative medvax-text-deepblue medvax-bg-lightblue"
     >

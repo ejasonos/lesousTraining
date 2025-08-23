@@ -1,7 +1,11 @@
+<script>
+// pass a prop for background color
+</script>
+
 <template>
     <!-- Footer Section -->
-    <footer class="w-full flex flex-col medvax-bg-blue py-6 px-14 gap-y-5">
-      <section class="flex w-full justify-between items-center">
+    <footer class="static bottom-0 w-full flex flex-col medvax-bg-blue py-6 px-14 gap-y-5">
+      <section class="flex justify-between items-center">
         <img
           src="../assets/logo-footer-BYjAwJzc.svg"
           alt="MedVax logo"
@@ -33,7 +37,7 @@
               >Contact Us</router-link>
           </li>
         </ul>
-        <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
+        <li to="#topOfPage" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
             Go to top
             <span
               class="h-5 w-5 medvax-bg-deepblue rounded-full flex justify-center items-center"
@@ -42,7 +46,7 @@
                 alt="Top"
                 class="h-full w-full object-cover text-white"
             /></span>
-          </router-link>
+          </li>
       </section>
       <section class="rounded p-4  medvax-bg-deepblue flex justify-between items-center">
         <div class="w-2/3 flex flex-wrap gap-2.5">

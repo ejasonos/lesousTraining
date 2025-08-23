@@ -1,3 +1,12 @@
+<script setup>
+defineProps ({
+  bgColor: {
+    type: String,
+    default: 'medvax-bg-lightred'
+  }
+})
+</script>
+
 <template>
     
 <!-- Our Services Section -->
@@ -7,7 +16,7 @@
         <h1 class="text-5xl font-bold m-6">Our Services</h1>
     </div>
     <div class="grid grid-cols-2 justify-center items-center gap-8 p-16">
-      <div class="flex flex-col w-full p-2.5 gap-y-2 rounded medvax-bg-lightred">
+      <div v-bind:class="['flex flex-col w-full p-2.5 gap-y-2 rounded', bgColor]">
         <img
           alt="services"
           src="../assets/medtracka-4-her-Df4Sxils.svg"
@@ -23,7 +32,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col w-full p-2.5 gap-y-2 rounded medvax-bg-lightred">
+      <div v-bind:class="['flex flex-col w-full p-2.5 gap-y-2 rounded', bgColor]">
         <img
           alt="services"
           src="../assets/medtracka-CyWCPOXU.svg"
@@ -38,7 +47,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col w-full p-2.5 gap-y-2 rounded medvax-bg-lightred">
+      <div v-bind:class="['flex flex-col w-full p-2.5 gap-y-2 rounded', bgColor]">
         <img
           alt="services"
           src="../assets/medvax-pharmacy-C8rc04dD.svg"
@@ -52,7 +61,7 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col w-full p-2.5 gap-y-2 rounded medvax-bg-lightred">
+      <div v-bind:class="['flex flex-col w-full p-2.5 gap-y-2 rounded', bgColor]">
         <img
           alt="services"
           src="../assets/medvax-lab-hGB-yGDV.svg"

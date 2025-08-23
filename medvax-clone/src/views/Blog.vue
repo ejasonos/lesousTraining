@@ -7,7 +7,7 @@ import TopnavSection from '../components/TopnavSection.vue';
     <!-- Header and Navigation Section -->
     <TopnavSection />
      <!-- Team of experts -->
-    <section class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 pt-20 gap-y-10 text-center">
+    <section id="topOfPage" class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 pt-20 gap-y-10 text-center">
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">Our Blog</h1>
         <p class="px-32">Stay updated with the latest in healthcare technology, pharmaceutical care, reproductive health, and MedVax Health's impact in Africa.</p>
