@@ -10,7 +10,7 @@ let items = 0
     <TopnavSection />
 
          <!-- Hero page -->
-    <section class="flex flex-col justify-center items-center h-[70vh] rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 p-32 text-center">
+    <section class="flex flex-col justify-center items-center h-fit rounded-md medvax-bg-lightblue medvax-text-deepblue m-8 gap-y-10 p-32 text-center">
         <img src="../assets/logo-footer-BYjAwJzc.svg" alt="medvax logo" class="h-10 w-auto" />
         <h1 class="text-4xl font-normal">MedVax Health E-Pharmacy</h1>
         <p>Place orders, pick up your orders or have them delivered to you.</p>

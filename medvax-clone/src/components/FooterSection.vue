@@ -45,7 +45,7 @@
           </router-link>
       </section>
       <section class="rounded p-4  medvax-bg-deepblue flex justify-between items-center">
-        <div class="w-2/3 flex flex-wrap gap-5">
+        <div class="w-2/3 flex flex-wrap gap-2.5">
           <button
             class="p-1 rounded-md border-[#079FCE] border-1 text-md text-white flex items-center"
           >
