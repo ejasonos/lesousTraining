@@ -35,7 +35,7 @@
             class="p-1 rounded-md border-[#079FCE] border-1 text-md text-white flex items-center"
           >
             <img
-              src="../assets/hp.svg"
+              src="../assets/inbox.svg"
               alt="icon"
               class="h-5 w-5 mx-1"
             />info@medvaxhealth.com
@@ -44,7 +44,7 @@
             class="p-1 rounded-md border-[#079FCE] border-1 text-md text-white flex items-center"
           >
             <img
-              src="../assets/hp.svg"
+              src="../assets/phone.svg"
               alt="icon"
               class="h-5 w-5 mx-1"
             />+234 912 973 8935
@@ -53,7 +53,7 @@
             class="p-1 rounded-md border-[#079FCE] border-1 text-md text-white flex items-center"
           >
             <img
-              src="../assets/hp.svg"
+              src="../assets/location.svg"
               alt="icon"
               class="h-5 w-5 mx-1"
             />FCT, Abuja, Nigeria
@@ -62,13 +62,13 @@
             class="p-1 rounded-md border-[#079FCE] border-1 text-md text-white flex items-center"
           >
             <img
-              src="../assets/hp.svg"
+              src="../assets/linkedin.svg"
               alt="icon"
               class="h-5 w-5 mx-1"
             /><img
-              src="../assets/hp.svg"
+              src="../assets/x.svg"
               alt="partners logo"
-              class="h-10 w-10 mx-1"
+              class="h-5 w-5 mx-1"
             />
           </button>
         </div>
