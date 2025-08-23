@@ -55,7 +55,7 @@
             medications on time without stress.
           </p>
           <div
-            class="flex items-center gap-3 p-3 medvax-bg-lightred overflow-hidden w-full"
+            class="flex items-center gap-3 p-3 medvax-bg-lightred w-full rounded-bl-md rounded-br-md"
           >
             <!-- Circular Image -->
             <div class="w-10 h-10 rounded-full overflow-hidden bg-[orange]">
