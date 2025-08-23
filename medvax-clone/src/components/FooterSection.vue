@@ -5,10 +5,10 @@
         <img
           src="../assets/logo-footer-BYjAwJzc.svg"
           alt="MedVax logo"
-          class="h-12 w-auto border"
+          class="h-12 w-auto"
         />
         <ul
-          class="list-none flex flex-wrap border justify-between items-center w-full"
+          class="list-none flex flex-wrap justify-between items-center w-1/2"
         >
           <li class="text-white m-3 text-sm">Home</li>
           <li class="text-white m-3 text-sm">About</li>
@@ -17,7 +17,8 @@
           <li class="text-white m-3 text-sm">Blog</li>
           <li class="text-white m-3 text-sm">Contact</li>
           <li class="text-white m-3 text-sm">Privacy</li>
-          <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
+        </ul>
+        <router-link to="#" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
             Go to top
             <span
               class="h-5 w-5 medvax-bg-deepblue rounded-full flex justify-center items-center"
@@ -27,7 +28,6 @@
                 class="h-full w-full object-cover text-white"
             /></span>
           </router-link>
-        </ul>
       </section>
       <section class="rounded p-4  medvax-bg-deepblue flex justify-between items-center">
         <div class="w-2/3 flex flex-wrap gap-x-5">
