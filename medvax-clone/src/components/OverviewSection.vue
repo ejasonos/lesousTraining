@@ -15,66 +15,66 @@
       </div>
       <div class="flex w-full justify-center items-center flex-wrap gap-10">
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] hover:medvax-bg-deepblue"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded medvax-bg-blue border object-cover"
+              src="../assets/tech-driven.svg"
+              class="h-12 w-12 p-2.5 rounded medvax-bg-blue object-contain"
             />
-            <p class="text-lg text-black font-bold">Technology-Driven</p>
+            <p class="text-lg font-bold">Technology-Driven</p>
           </div>
-          <p class="text-md text-black font-thin">
+          <p class="text-md font-thin">
             We harness AI, data, and digital health tools to enhance healthcare
             delivery
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] hover:bg-[blue]"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 rounded medvax-bg-blue border object-cover"
+              src="../assets/patient-centered.svg"
+              class="h-12 w-12 p-2.5 rounded medvax-bg-blue object-contain"
             />
-            <p class="text-lg text-black font-bold">
+            <p class="text-lg font-bold">
               Patient-Centered Approach
             </p>
           </div>
-          <p class="text-md text-black font-thin">
+          <p class="text-md font-thin">
             Our solutions are tailored to individual and community health needs.
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] hover:bg-[blue]"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 medvax-bg-blue rounded pee border object-cover medvax-blue"
+              src="../assets/reliable-supply.svg"
+              class="h-12 w-12 p-2.5 medvax-bg-blue rounded object-contain medvax-blue"
             />
-            <p class="text-lg text-black font-bold">Reliable Supply Chain</p>
+            <p class="text-lg font-bold">Reliable Supply Chain</p>
           </div>
-          <p class="text-md text-black font-thin">
+          <p class="text-md font-thin">
             We ensure the continuous availability of essential medications and
             vaccines
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] hover:bg-blue-300"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
-              src="../assets/hp.svg"
-              class="h-[70px] w-[70px] p-4 medvax-bg-blue rounded med border object-cover"
+              src="../assets/impact-focused.svg"
+              class="h-12 w-12 p-2.5 medvax-bg-blue rounded object-contain"
             />
-            <p class="text-lg text-black font-bold">Impact Focused</p>
+            <p class="text-lg font-bold">Impact Focused</p>
           </div>
-          <p class="text-md text-black font-thin">
+          <p class="text-md font-thin">
             Committed to closing heathcare gaps for under-served populations
           </p>
         </div>
