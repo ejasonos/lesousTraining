@@ -13,10 +13,10 @@
           under-served communities.
         </p>
       </div>
-      <div class="grid grid-cols-2 justify-center items-center gap-10">
+      <div class="flex flex-col md:grid md:grid-cols-2 justify-center items-center gap-10">
         <div
           class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
-        >
+        > <!-- Card -->
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -32,7 +32,7 @@
         </div>
         <div
           class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
-        >
+        > <!-- Card -->
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -49,7 +49,7 @@
         </div>
         <div
           class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
-        >
+        > <!-- Card -->
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -65,7 +65,7 @@
         </div>
         <div
           class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
-        >
+        > <!-- Card -->
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
