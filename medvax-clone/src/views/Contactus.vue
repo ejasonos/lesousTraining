@@ -8,5 +8,5 @@ import FooterSection from '../components/FooterSection.vue'
     <TopnavSection />
 
     <!-- Footer section -->
-     <FooterSection placed="static bottom-0" />
+     <FooterSection /> <!-- The default position of the footer is "position: static; bottom: 0;"-->
 </template>

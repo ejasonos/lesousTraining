@@ -41,5 +41,5 @@ import TopnavSection from '../components/TopnavSection.vue';
     </section>
 
     <!-- Footer Section -->
-     <FooterSection placed="static bottom-0" />
+     <FooterSection /> <!-- The default position of the footer is "position: static; bottom: 0;"-->
 </template>

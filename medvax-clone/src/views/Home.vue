@@ -27,5 +27,5 @@ import TopnavSection from '../components/TopnavSection.vue'
     <!-- Get a consultant -->
      <ConsultantSection />
     <!-- Footer Section -->
-     <FooterSection />
+     <FooterSection /> <!-- The default position of the footer is "position: static; bottom: 0;"-->
 </template>
