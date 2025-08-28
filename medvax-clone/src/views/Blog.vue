@@ -34,12 +34,12 @@ import TopnavSection from '../components/TopnavSection.vue';
             <p class="text-md font-normal">
                 When it comes to safe sex, condoms are just the beginning. True protection means being informed...
             </p>
-            <button class="w-full text-center p-1 rounded-sm text-white font-normal medvax-bg-blue">Read more</button>
+            <button class="w-full text-center p-1 rounded-sm text-white font-normal medvax-bg-blue hover:text-red-300">Read more</button>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer Section -->
-     <FooterSection placed="absolute bottom-0" />
+     <FooterSection placed="static bottom-0" />
 </template>

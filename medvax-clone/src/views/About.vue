@@ -113,8 +113,8 @@ import TopnavSection from '../components/TopnavSection.vue';
         <p class="px-32">Our team combines a decade of experience in Healthcare (Pharmaceutical care), Technology, and Logistics to drive growth in emerging markets. "At MedVax Health, we are committed to leveraging technology in bridging health equity gaps in Africa."
         <span class="block">- Chioma Uzoma</span></p>
         <div class="flex justify-center items-center p-5 medvax-bg-deepblue gap-x-6 w-full rounded-bl-md rounded-br-md">
-          <button class="px-2 py-3 rounded-md border-1 border-white text-white">Social Media</button>
-          <button class="px-2 py-3 rounded-md border-1 border-white text-white">Mangament</button>
+          <button class="px-2 py-3 rounded-md border-1 border-white text-white hover:bg-[gray]">Social Media</button>
+          <button class="px-2 py-3 rounded-md border-1 border-white text-white hover:bg-[gray]">Mangament</button>
         </div>
     </section>
 

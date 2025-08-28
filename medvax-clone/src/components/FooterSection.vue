@@ -43,7 +43,7 @@ defineProps ({
               >Contact Us</router-link>
           </li>
         </ul>
-        <li to="#topOfPage" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm">
+        <li to="#topOfPage" class="flex items-center gap-x-1 decoration-none text-white m-3 text-sm hover:text-blue-300 hover:cursor-default">
             Go to top
             <span
               class="h-5 w-5 medvax-bg-deepblue rounded-full flex justify-center items-center"
