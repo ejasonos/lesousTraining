@@ -26,7 +26,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"> <!-- Card 1 -->
             <p class="text-8xl font-bold medvax-text-deepblue">01</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18">
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow-md shadow-[skyblue] medvax-text-deepblue gap-y-2 absolute top-18">
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -45,7 +45,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 2 -->
             <p class="text-8xl font-bold medvax-text-deepblue">02</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18">
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow-md shadow-[skyblue] medvax-text-deepblue gap-y-2 absolute top-18">
           <div class="flex w-full items-center gap-x-1">
             <img
               alt="icon"
@@ -65,7 +65,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 3 -->
             <p class="text-8xl font-bold medvax-text-deepblue">03</p>
              <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18"
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow-md shadow-[skyblue] medvax-text-deepblue gap-y-2 absolute top-18"
         >
           <div class="flex items-center gap-x-1">
             <img
@@ -85,7 +85,7 @@ import TopnavSection from '../components/TopnavSection.vue';
         <div class="flex flex-col relative"><!-- Card 4 -->
             <p class="text-8xl font-bold medvax-text-deepblue">04</p>
             <div
-          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2 absolute top-18"
+          class="p-8 flex flex-col rounded-md medvax-bg-lightblue shadow-md shadow-[skyblue] medvax-text-deepblue gap-y-2 absolute top-18"
         >
           <div class="flex w-full items-center gap-x-1">
             <img

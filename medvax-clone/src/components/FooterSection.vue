@@ -17,7 +17,10 @@ defineProps ({
           alt="MedVax logo"
           class="h-12 w-auto"
         />
-        <ul class="flex list-none w-fit gap-x-6 justify-around hover:cursor-default">
+        <div>
+          <img src="../assets/unfpa.svg" alt="icon-menu" class="h-12 w-auto flex lg:hidden" />
+        </div>
+        <ul class="hidden lg:flex list-none w-fit gap-x-6 justify-around hover:cursor-default">
           <li>
             <router-link v-bind:to="{name: 'Home'}" class="text-white font-medium hover:text-blue-300">Home</router-link>
           </li>

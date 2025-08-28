@@ -1,7 +1,7 @@
 <template>
     
     <!-- Hero page Sections-->
-    <section id="topOfPage" class="grid grid-cols-2 bg-white">
+    <section id="topOfPage" class="flex flex-col md:grid md:grid-cols-2 bg-white">
       <div class="h-[500px] w-full rounded p-4">
         <img
           alt="Doctors"
@@ -28,17 +28,17 @@
         </div>
         <div class="flex flex-wrap gap-3">
           <button
-            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] hover:bg-[orange] shadow"
+            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] shadow hover:bg-[#121F41] hover:text-white"
           >
             Book a Consultation
           </button>
           <button
-            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] hover:bg-[orange] shadow"
+            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] shadow hover:bg-[#121F41] hover:text-white"
           >
             Download Our App
           </button>
           <button
-            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] hover:bg-[orange] shadow"
+            class="px-6 py-4 rounded-lg text-sm text-black bg-[#FAD2E3] shadow hover:bg-[#121F41] hover:text-white"
           >
             Visit Our E-Pharmacy
           </button>

@@ -16,9 +16,9 @@
           src="../assets/logo-nav-B7kw0cn7.svg"
           class="h-[45px] w-auto"/>
       </div>
-      <div class="flex w-1/2 float-right items-center">
-        <img alt="Menu" src="../assets/unfpa.svg" class="hidden h-[50px] w-auto" />
-        <ul class="flex list-none w-full justify-around hover:cursor-default">
+      <div class="flex items-center w-1/2 float-right">
+        <img alt="Menu" src="../assets/unfpa.svg" class="block lg:hidden h-[50px] w-auto" />
+        <ul class="hidden lg:flex list-none w-full justify-around hover:cursor-default">
           <li>
             <router-link v-bind:to="{name: 'Home'}" class="text-white hover:text-blue-300 transform-none">Home</router-link>
           </li>
@@ -40,7 +40,7 @@
           </li>
           <li>
             <router-link to="/contactus"
-              class="rounded px-4 py-2 text-white medvax-bg-blue hover:bg-blue-800"
+              class="rounded px-4 py-2 text-white medvax-bg-blue hover:text-blue-300"
               >Contact Us</router-link>
           </li>
         </ul>

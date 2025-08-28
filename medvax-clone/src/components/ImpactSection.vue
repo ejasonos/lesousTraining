@@ -45,11 +45,7 @@
       </div>
       <div class="flex w-full gap-y-10 flex-wrap">
         <div class="flex flex-col w-1/3 medvax-bg-lightblue pt-2.5 shadow-lg rounded">
-          <img
-            alt="quote"
-            src="../assets/pink-icon.svg"
-            class="object-cover h-[60px] w-[60px] pl-2.5"
-          />
+          <p class="text-9xl medvax-text-blue text-left">"</p>
           <p class="p-4 text-lg font-normal w-full">
             MedVax Health transformed my health journey. Now, I can get my
             medications on time without stress.

@@ -15,7 +15,7 @@
       </div>
       <div class="grid grid-cols-2 justify-center items-center gap-10">
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
@@ -31,7 +31,7 @@
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
@@ -48,7 +48,7 @@
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
@@ -64,7 +64,7 @@
           </p>
         </div>
         <div
-          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[blue] medvax-text-deepblue gap-y-2"
+          class="p-4 flex flex-col rounded-md medvax-bg-lightblue shadow shadow-[skyblue] medvax-text-deepblue gap-y-2"
         >
           <div class="flex w-full items-center gap-x-1">
             <img
