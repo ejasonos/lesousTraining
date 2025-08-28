@@ -19,27 +19,27 @@ defineProps ({
         />
         <ul class="flex list-none w-fit gap-x-6 justify-around hover:cursor-default">
           <li>
-            <router-link v-bind:to="{name: 'Home'}" class="text-white font-medium hover:medvax-text-blue transform-none">Home</router-link>
+            <router-link v-bind:to="{name: 'Home'}" class="text-white font-medium hover:text-blue-300">Home</router-link>
           </li>
           <li>
-            <router-link to="/about" class="text-white font-medium hover:medvax-text-blue transform-none"
+            <router-link to="/about" class="text-white font-medium hover:text-blue-300 transform-none"
               >About</router-link>
           </li>
           <li>
-            <router-link to="/innovation" class="text-white font-medium hover:medvax-text-blue transform-none"
+            <router-link to="/innovation" class="text-white font-medium hover:text-blue-300 transform-none"
               >Innovation</router-link>
           </li>
           <li>
-            <router-link to="/epharmacy" class="text-white font-medium hover:medvax-text-blue transform-none"
+            <router-link to="/epharmacy" class="text-white font-medium hover:text-blue-300 transform-none"
               >E-Pharmacy</router-link>
           </li>
           <li>
-            <router-link to="/blog" class="text-white font-medium hover:medvax-text-blue transform-none"
+            <router-link to="/blog" class="text-white font-medium hover:text-blue-300 transform-none"
               >Blog</router-link>
           </li>
           <li>
             <router-link to="/contactus"
-              class="rounded px-4 py-2 text-white font-medium medvax-bg-blue hover:medvax-bg-blue transform-none"
+              class="rounded px-4 py-2 text-white font-medium medvax-bg-blue hover:text-blue-300 transform-none"
               >Contact Us</router-link>
           </li>
         </ul>
@@ -103,6 +103,3 @@ defineProps ({
       </section>
     </footer>
 </template>
-
-<style>
-</style>
